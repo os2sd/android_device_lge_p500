@@ -56,6 +56,11 @@ PRODUCT_PACKAGES += \
     VisualizationWallpapers \
     librs_jni
 
+PRODUCT_PACKAGES += \
+    Email \
+    Exchange2 \
+    HwaSettings
+
 # Inherit products (Most specific first)
 $(call inherit-product, vendor/lge/p500/p500-vendor.mk)
 $(call inherit-product, device/lge/msm7x27-common/device.mk)
