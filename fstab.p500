@@ -13,7 +13,7 @@ recovery		/recovery	mtd	defaults		recoveryonly
 /dev/block/mmcblk0p4	/data		f2fs	noatime,nosuid,nodev,discard,nodiratime,inline_xattr		wait
 
 /devices/platform/msm_sdcc.1/mmc_host/mmc0	auto	auto	defaults	voldmanaged=sdcard0:auto,noemulatedsd
-/dev/block/zram0				none	swap	defaults	zramsize=50331648,swapprio=1
+/dev/block/zram0				none	swap	defaults	zramsize=201326592,swapprio=1
 
 #mtd0: 00440000 00020000 "boot"
 #mtd1: 0be00000 00020000 "system"
