@@ -6,7 +6,7 @@ TARGET_SCREEN_WIDTH := 320
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Overrides
-PRODUCT_NAME := cm_p500
+PRODUCT_NAME := lineage_p500
 PRODUCT_BRAND := lge
 PRODUCT_DEVICE := p500
 PRODUCT_MODEL := LG-P500
